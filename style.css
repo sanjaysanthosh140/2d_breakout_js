@@ -1,0 +1,53 @@
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border: solid 2px red;
+    top: 20%;
+    left: 30%;
+    background-color: #000000;
+}
+
+.userClass{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border: solid 5px cyan;
+
+}
+
+.userCls{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+
+.ballCls{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    border: solid 2px yellow;
+    z-index: 1;
+}
+
+.blockCls{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border: solid 3px cyan;
+    z-index: 0;
+}
+
